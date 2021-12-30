@@ -92,8 +92,10 @@ body {
 }
 
 .person__list {
+  padding: 0 15px;
   margin: 0 auto;
   width: 600px;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
