@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: transparent !important;
+  color: red;
+}
+
+::selection {
+  background: transparent !important;
+  color: red;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.person__wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: skyblue;
+  background-image: url("https://www.freeiconspng.com/thumbs/snowing-png/snowing-png-2.png");
+}
+
+.person__text {
+  text-align: center;
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 600;
+}
+
+.person__text1 {
+  margin-bottom: 10px;
+}
+
+.person__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.person__subbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.person__box {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.658);
+          box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.658);
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.person__box:hover {
+  -webkit-box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+.person__img {
+  top: -100px;
+  position: absolute;
+}
+
+.person__list {
+  margin: 0 auto;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

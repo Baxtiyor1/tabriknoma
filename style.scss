@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background: transparent !important;
+    color: red;
+}
+body{
+    font-family: sans-serif;
+}
+.person{
+    &__wrapper{
+        width: 100%;
+        min-height: 100vh;
+        background-color: skyblue;
+        background-image: url('https://www.freeiconspng.com/thumbs/snowing-png/snowing-png-2.png');
+    }
+    &__text{
+        text-align: center;
+        font-size: 22px;
+        line-height: normal;
+        font-weight: 600;
+    }
+    &__text1{
+        margin-bottom: 10px;
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    &__subbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__box{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.658);
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+        box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.8);
+        }
+    }
+    &__img{
+        top: -100px;
+        position: absolute;
+    }
+    &__list{
+        margin: 0 auto;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
